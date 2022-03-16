@@ -1,0 +1,40 @@
+{
+    "model" : {
+        "min_input_size":       416,
+        "max_input_size":       416,
+        "anchors":              [0,0, 0,0, 0,0, 8,13, 13,20, 18,28, 22,32, 25,38, 33,49],
+        "labels":               ["spot","eyespot"]
+    },
+
+    "train": {
+        "train_image_folder":   "F:/yolo/keras-yolo3-master/new_butterflies_carolina/train/images/",
+        "train_annot_folder":   "F:/yolo/keras-yolo3-master/new_butterflies_carolina/train/annotations/4class/",
+        "cache_name":           "spot_eyespot.pkl",
+
+        "train_times":          10,
+        "batch_size":           8,
+        "learning_rate":        1e-4,
+        "nb_epochs":            30,
+        "warmup_epochs":        3,
+        "ignore_thresh":        0.5,
+        "gpus":                 "0",
+
+        "grid_scales":          [1,1,1],
+        "obj_scale":            5,
+        "noobj_scale":          1,
+        "xywh_scale":           1,
+        "class_scale":          1,
+
+        "tensorboard_dir":      "logs",
+        "saved_weights_name":   "spot_eyespot_model.h5",
+        "debug":                true
+    },
+
+    "valid": {
+        "valid_image_folder":   "",
+        "valid_annot_folder":   "",
+        "cache_name":           "valid.pkl",
+
+        "valid_times":          1
+    }
+}
