@@ -7,7 +7,6 @@ This repository contains the Python implementation for two CNN deep learning mod
 2- CNN model for the segmentation of eyespot images
 
 
-![overview](../../system_overview.png)
 
 For detection we use a YOLO model.
 For segmentation we use a U-NET model.
