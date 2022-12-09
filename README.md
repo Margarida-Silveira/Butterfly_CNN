@@ -1,6 +1,6 @@
 # CNN’s for detection and measurement of butterfly eyespot patterns.
 
-This repository contains the Python implementation for four CNN deep learning models:
+This repository contains the Python implementation for 4 CNN deep learning models:
 
 * 1 - Three state-of-the-art CNN models for eyespot and spot detection in butterfly images;
 
