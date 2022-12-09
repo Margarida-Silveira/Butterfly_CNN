@@ -1,4 +1,4 @@
-#CNN’s for detection and measurement of butterfly eyespot patterns.
+# CNN’s for detection and measurement of butterfly eyespot patterns.
 
 This repository contains the Python implementation for four CNN deep learning models:
 
@@ -13,7 +13,7 @@ For segmentation we use a ```U-NET``` model.
 
 Overview of the two CNNs approach for first detecting and then measuring, spots or eyespots on images of butterfly wings.
 
-![](https://github.com/Margarida-Silveira/Butterfly_CNN/tree/main/images/Fig3.png)
+![](https://github.com/Margarida-Silveira/Butterfly_CNN/blob/main/images/Fig3.png)
 
 ## Detection CNNs
 
