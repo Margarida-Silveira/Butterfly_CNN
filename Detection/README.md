@@ -1,6 +1,6 @@
 Here we present the implementations of the YOLO, RetinaNet and EfficientDet networks.
 
-* YOLO
+## YOLO
 
 Our code is adapted from https://github.com/experiencor/keras-yolo3
 
@@ -10,7 +10,7 @@ From the keras-yolo3-master folder run:
 
 python predict.py -c config_spot_eyespot.json -i F:\yolo\Butterfly_images\test\images -o F:\yolo\Butterfly_images\test\output
 
-* RetinaNet
+## RetinaNet
 
 Our code is adapted from https://github.com/fizyr/keras-retinanet
 
@@ -20,7 +20,7 @@ From the ```retinanet/keras-retinanet``` directory run:
 
 !retinanet-evaluate --convert-model --config <Path to Config file> --gpu 0 csv <Path to annotations.csv file> <Path to classes.csv file> <Path to the model .h5 file> 
 
-* EfficientDet
+## EfficientDet
 
 Our code is adapted from https://github.com/wangermeng2021/EfficientDet-tensorflow2
 
