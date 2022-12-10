@@ -26,6 +26,6 @@ Our code is adapted from https://github.com/wangermeng2021/EfficientDet-tensorfl
 
 Download the pretrained weights for EfficientDet [spot-eyespot](https://drive.google.com/drive/folders/1smXSUOqSr-yjxCcDttJyoLseqykArtzS?usp=share_link) model
 
-From the ```efficientdet``` directory run:
+From the [efficientdet](https://github.com/Margarida-Silveira/Butterfly_CNN/tree/main/Detection/efficientdet) directory run:
 
 !python3 detect.py --model-dir ```Path to the folder with the weights``` --tta False --pic-dir ```Path where the .jpg images are saved``` --save_dir ```Path to save the results``` --score-threshold 0.5 --class-names ```Path to the file class.names```
