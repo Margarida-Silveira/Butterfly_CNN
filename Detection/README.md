@@ -18,9 +18,14 @@ Download the pretrained weights for RetinaNet [spot-eyespot](https://drive.googl
 
 From the ```retinanet/keras-retinanet``` directory run:
 
-!retinanet-evaluate --convert-model --config <Path to Config file> --gpu 0 csv <Path to annotations.csv file> <Path to classes.csv file> <Path to the model .h5 file> 
+!retinanet-evaluate --convert-model --config <Path to Config file> --gpu 0 csv ```Path to annotations.csv file``` ```Path to classes.csv file``` ```Path to the model .h5 file``` 
 
 ## EfficientDet
 
 Our code is adapted from https://github.com/wangermeng2021/EfficientDet-tensorflow2
 
+Download the pretrained weights for EfficientDet [spot-eyespot](https://drive.google.com/drive/folders/1smXSUOqSr-yjxCcDttJyoLseqykArtzS?usp=share_link) model
+
+From the ```efficientdet``` directory run:
+
+!python3 detect.py --model-dir ```Path to the folder with the weights``` --tta False --pic-dir ```Path were the .jpg images are saved``` --save_dir ```Path to save the results``` --score-threshold 0.5 --class-names ```Path to the file class.names```
