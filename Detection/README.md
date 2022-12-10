@@ -28,4 +28,4 @@ Download the pretrained weights for EfficientDet [spot-eyespot](https://drive.go
 
 From the ```efficientdet``` directory run:
 
-!python3 detect.py --model-dir ```Path to the folder with the weights``` --tta False --pic-dir ```Path were the .jpg images are saved``` --save_dir ```Path to save the results``` --score-threshold 0.5 --class-names ```Path to the file class.names```
+!python3 detect.py --model-dir ```Path to the folder with the weights``` --tta False --pic-dir ```Path where the .jpg images are saved``` --save_dir ```Path to save the results``` --score-threshold 0.5 --class-names ```Path to the file class.names```
