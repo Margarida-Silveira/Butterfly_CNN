@@ -17,7 +17,7 @@ Overview of the two CNNs approach for first detecting and then measuring, spots 
 
 ## Detection CNNs
 
-The implementations for the detection CNNs is provided [here](https://github.com/Margarida-Silveira/Butterfly_CNN/tree/main/Detection).
+The implementations for the detection CNNs are provided [here](https://github.com/Margarida-Silveira/Butterfly_CNN/tree/main/Detection).
 
 ## Segmentation CNN
 
