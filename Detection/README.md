@@ -16,7 +16,7 @@ Our code is adapted from https://github.com/fizyr/keras-retinanet
 
 Download the pretrained weights for RetinaNet [spot-eyespot](https://drive.google.com/file/d/1GrliyIifPXJRyeWgGgoIzKVAhkJYxI8p/view?usp=sharing) model
 
-From the ```retinanet/keras-retinanet``` directory run:
+From the [keras-retinanet](https://github.com/Margarida-Silveira/Butterfly_CNN/tree/main/Detection/keras-retinanet) directory run:
 
 !retinanet-evaluate --convert-model --config <Path to Config file> --gpu 0 csv ```Path to annotations.csv file``` ```Path to classes.csv file``` ```Path to the model .h5 file``` 
 
