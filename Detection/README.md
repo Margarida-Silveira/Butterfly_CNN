@@ -4,7 +4,7 @@ Here we present the implementations of the YOLO, RetinaNet and EfficientDet netw
 
 Our code is adapted from https://github.com/experiencor/keras-yolo3
 
-Download the pretrained weights for YOLO [spot-eyespot](https://ulisboa-my.sharepoint.com/:u:/g/personal/ist14026_tecnico_ulisboa_pt/EXeR0-eHujZOsmwUzcRr1L0BWOkhoobfKbDx2y_XUkICEg?e=RWzuY4) model
+Download the pretrained weights for YOLO [spot-eyespot](https://ulisboa-my.sharepoint.com/:u:/g/personal/ist14026_tecnico_ulisboa_pt/ERdKpxPsiPNNrKxsn9lj3lMBfwarD-eeI_K1p8QNEMHbpw?e=ahHMhz) model
 
 From the [keras-yolo3-master folder](https://github.com/Margarida-Silveira/Butterfly_CNN/tree/main/Detection/keras-yolo3-master) run:
 
