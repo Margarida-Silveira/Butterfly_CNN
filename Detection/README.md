@@ -14,17 +14,21 @@ python predict.py -c config_spot_eyespot.json -i F:\yolo\Butterfly_images\test\i
 
 Our code is adapted from https://github.com/fizyr/keras-retinanet
 
-Download the pretrained weights for RetinaNet [spot-eyespot](https://drive.google.com/file/d/1GrliyIifPXJRyeWgGgoIzKVAhkJYxI8p/view?usp=sharing) model
+Download the pretrained weights for RetinaNet [spot-eyespot](https://drive.google.com/file/d/1sienQj3S3dXmkN4_sHiiaRa7tM4ipmzG/view?usp=sharing) model
 
 From the [keras-retinanet](https://github.com/Margarida-Silveira/Butterfly_CNN/tree/main/Detection/keras-retinanet) directory run:
+
+!pip install .
+
+!python setup.py build_ext --inplace
+
+[create_dataset.py](https://github.com/Margarida-Silveira/Butterfly_CNN/blob/main/Detection/keras-retinanet/create_dataset.py), (after changing ```DATASET_DIR```, which corresponds to the directory where the dataset is located containing the images and corresponding ground-truth annotations (.xml files))
 
 !retinanet-evaluate --convert-model --config <Path to Config file> --gpu 0 csv ```Path to annotations.csv file``` ```Path to classes.csv file``` ```Path to the model .h5 file``` 
 
 ## EfficientDet
 
 Our code is adapted from https://github.com/wangermeng2021/EfficientDet-tensorflow2
-
-Download the pretrained weights for EfficientDet [spot-eyespot](https://drive.google.com/drive/folders/1smXSUOqSr-yjxCcDttJyoLseqykArtzS?usp=share_link) model
 
 From the [efficientdet](https://github.com/Margarida-Silveira/Butterfly_CNN/tree/main/Detection/efficientdet) directory run:
 
